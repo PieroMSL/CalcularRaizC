@@ -5,7 +5,7 @@ class CalculadorRaiz:
 
     def calcular_raiz(self):
         x = 1.0
-        for k in range(1, self.iteraciones):
+        for k in range(0, self.iteraciones):
             x = (x + self.valor / x) / 2
             print("La raíz después de", k, "iteraciones es", x)
         return x
